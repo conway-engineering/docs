@@ -93,12 +93,12 @@
         "tab": "Pilot",
         "groups": [
           {
-            "group": "Your deployment",
+            "group": "Pilot deployment",
             "pages": [
               "pilot/index",
+              "pilot/limitations",
               "pilot/contacts",
               "pilot/sources-configured",
-              "pilot/playbooks-configured",
               "pilot/terminology"
             ]
           }

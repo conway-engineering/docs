@@ -33,6 +33,18 @@ These are enforced across all pages — do not deviate without updating this fil
 - Automation tab contains **playbooks**. "Playbook" = the artifact; "Automation" = the tab/concept, matching the UI.
 - **Never use "alert"** as a product noun — the demo branch is removing that concept. If a UI drawer still uses the label, document around it (e.g. "investigation detail" or the current UI text); flag the inconsistency instead of propagating it.
 
+## Chat assistant cross-references
+
+The Chat assistant is a primary analyst tool and is the standard escape hatch for "I'm stuck." When authoring a feature page that involves interpretation, decisions, or dense UI (e.g. reading an investigation, choosing a disposition, connecting a source, navigating the case workspace), **include a chat reminder** — import the reusable snippet at `snippets/chat-reminder.mdx` rather than re-typing it:
+
+```mdx
+import ChatReminder from '/snippets/chat-reminder.mdx'
+
+<ChatReminder />
+```
+
+Place the reminder at the very top of the page, right after the frontmatter — so users see it before they start reading. Skip it on purely introductory/conceptual pages (welcome, core-concepts, navigating) and on the Chat assistant pages themselves.
+
 ## Per-page content template
 
 Every Guides page follows this structure:

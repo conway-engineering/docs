@@ -23,7 +23,7 @@ These terms are locked. Any PR that introduces a synonym should be rejected.
 | Top-level section (sidebar item) | **Detection / Response / Sources** | Mission Control, Cases, Data Sources |
 | Automation artifact | **Playbook** | Workflow, rule set, automation (as a noun for the artifact) |
 | Automation surface | **Automations tab** (inside Response) | Playbooks page |
-| Agent-saved observation | **Memory** | Note, insight, learning |
+| Agent-saved observation | **Intelligence** (item) | Memory, note, insight, learning |
 | Extracted actor (person / account / device / IP) | **Entity** | Subject, record |
 | Detection execution | **Run** | Job, scan, batch |
 
